@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-   
-
 <head>
     <title>Encriptador de texto</title>
     <script src="encriptador.js"></script>
@@ -9,24 +7,20 @@
   
 </head>
 
-<body>
+<body class="body">
+    <div class="h1"> 
+    <h1>Encriptador y desencriptador de texto.</h1>
+    </div>
 
-    <div> 
+    <div class="cajaTexto"> 
         <input type="text" id="cajaTexto1" placeholder="Ingrese el texto">
-    
-    </div>
-
-    <div>
-    <button onclick="encriptarTexto()">Clic para encriptar tu texto</button>
-    <button onclick="descifrarTexto()">Clic para desencriptar</button>
-    </div>
-
-    <textarea id="cajaTextoResultado"></textarea>
-        
-
     </div>
    
-
-</body>
-
-</html>
+    <div class="botones">
+         <button onclick="encriptarTexto()">Clic para encriptar tu texto</button>
+         <button onclick="descifrarTexto()">Clic para desencriptar</button>
+    </div>
+ 
+    <div class="resultado">
+    <textarea id="cajaTextoResultado"></textarea>
+    </div>
