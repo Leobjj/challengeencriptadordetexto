@@ -19,6 +19,7 @@ body {
     justify-content: center;
     aling-items: center;
     margin-bottom: 10px;
+    gap: 15px;
 }
 
 .botones button{
