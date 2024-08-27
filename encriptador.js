@@ -8,7 +8,6 @@ function encriptarTexto() {
 
   console.log(textoEncriptado);
   cajaTextoResultado.value = textoEncriptado;
-  let resultado = document.getElementById("cajaTextoResultado");
 }
 
 function descifrarTexto() {
@@ -24,6 +23,6 @@ function descifrarTexto() {
 
   console.log(textoDescifrado);
   cajaTextoResultado.value = textoDescifrado;
-  let resultado = document.getElementById("cajaTextoResultado");
 }
+
 
